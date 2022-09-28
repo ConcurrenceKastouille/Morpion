@@ -13,7 +13,7 @@ def morpion():
 
         #Au tour de joueur 1
 
-        joueur1=input("Joueur 1 place ton 1 (entre 1 et 9)")
+        joueur1=input("Joueur 1 place ton X (entre 1 et 9)")
 
         while Jeu[int(joueur1)-1]=="X" or Jeu[int(joueur1)-1]=="V":
             print("Impossible de placer votre point ici, cette place est déjà prise !")
@@ -55,7 +55,7 @@ def morpion():
 
         #Au tour de joueur 2
 
-        joueur2=input("Joueur 2 place ton 2 (entre 1 et 9)")
+        joueur2=input("Joueur 2 place ton V (entre 1 et 9)")
 
         while Jeu[int(joueur2)-1]=="X" or Jeu[int(joueur2)-1]=="V":
             print("Impossible de placer votre point ici, cette place est déjà prise !")
