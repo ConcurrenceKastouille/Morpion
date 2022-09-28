@@ -90,7 +90,7 @@ def morpion():
         if ligne1[2]=="V" and ligne2[1]=="V" and ligne3[0]=="V":
             return "Le joueur 2 est le gagnant, Bravo !"
         
-                #On vérifie s'il n'y a pas match nul
+        #On vérifie s'il n'y a pas match nul
 
         if not "O" in Jeu:
             return "Pas de gagnants, match nul"
